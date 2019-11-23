@@ -15,6 +15,25 @@ var correct = 0;
         correct++;
     }
 
-document.getElementById("after_submit").style.visibility = "visible";
-document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+var messages = ["Oh You Think You Lit", "You Almost Won It All", "You Really Need To Read More"];
+
+var range;
+
+    if (correct < 1) {
+        range = 2;
+    }
+
+    if (correct > 0 && correct < 3) {
+        score = 1;
+    }
+
+    if (correct > 2) {
+        score = 0;
+    }
+
+document.getElementById("after-submit").style.visibility = "visible";
+
+
+document.getElementById("after-submit").style.visibility = "visible";
+document.getElementById("number-correct").innerHTML = "You got " + correct + " correct";
 }
