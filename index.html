@@ -13,7 +13,7 @@
 
 <h1>My First Trivia Game</h1>
 
-<form id="mytext" type = "text" name="question1">
+<form id="quiz" name="quiz">
 
 <p>Who was the first person to create a STEM college?</p>
 <input id="mytext" type = "text" name="question1"> 
@@ -28,18 +28,16 @@
 <input type = "radio" "mymultichoice" name = "question3" value="Culture"> Culture<br>
 <input type = "radio" "mymultichoice" name = "question3" value="TV & Entertainment"> TV & Entertainment<br>
 
-
-<input id = "mybutton" type = "mybutton" value = "I'm Finished!" .onclick = "check();">
-
-</form>
-
+<input id = "mybutton" type = "button" value = "I'm Finished!" onclick = "check();">
 <div id="after-submit">
 
-<p id="message"></p>
-<p id ="number-correct"></p>
+    <p id="message"></p>
+    <p id ="number-correct"></p>
+    <img id="picture"></img>   
 </div>
-</html>
-        
+</form>
+</div>
+
 </body>
 
 </html>
