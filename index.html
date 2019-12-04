@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lit Trivia Game</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?famile=Lato" rel="stylesheet">
-    <script src = "app.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </head>
 <body>
 
@@ -19,19 +19,19 @@
 <input id="mytext" type = "text" name="question1"> 
 
 <p>What year and country was the STEM college built?</p>
-<input type = "radio" "mymultichoice" name = "question2" value="Ghana in 1952"> Ghana in 1952<br>
-<input type = "radio" "mymultichoice" name = "question2" value="China in 1845"> China in 1845<br>
-<input type = "radio" "mymultichoice" name = "question2" value="U.S.A. in 2001"> U.S.A. in 2001<br>
+<input type = "radio" name = "question2" value="Ghana in 1952"> Ghana in 1952<br>
+<input type = "radio" name = "question2" value="China in 1845"> China in 1845<br>
+<input type = "radio" name = "question2" value="U.S.A. in 2001"> U.S.A. in 2001<br>
 
 <p>What is one of the best ways to market or brand something?</p>
-<input type = "radio" "mymultichoice" name = "question3" value="Social Media"> Social Media<br>
-<input type = "radio" "mymultichoice" name = "question3" value="Culture"> Culture<br>
-<input type = "radio" "mymultichoice" name = "question3" value="TV & Entertainment"> TV & Entertainment<br>
+<input type = "radio" name = "question3" value="Social Media"> Social Media<br>
+<input type = "radio" name = "question3" value="Culture"> Culture<br>
+<input type = "radio" name = "question3" value="TV & Entertainment"> TV & Entertainment<br>
 
-<input id = "mybutton" type = "button" value = "I'm Finished!" onclick = "check();">
+<input id = "mybutton" type = "button" value = "I'm Finished!" onclick = "check()">
 <div id="after-submit">
-
-    <p id="message"></p>
+    
+    <p id="messages"></p>
     <p id ="number-correct"></p>
     <img id="picture"></img>   
 </div>
